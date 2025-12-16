@@ -13,8 +13,11 @@ namespace HelloDevOpsApi.Controllers
             {
                 status = "Healthy",
                 service = "HelloDevOpsApi",
+                version = "v1.0",
+                environment = "Development",
                 timestamp = DateTime.UtcNow
             });
         }
+
     }
 }
