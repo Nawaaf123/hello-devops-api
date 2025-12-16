@@ -13,7 +13,7 @@ namespace HelloDevOpsApi.Controllers
             {
                 status = "Healthy",
                 service = "HelloDevOps API Service",
-                version = "v1.1",
+                version = "v1.2",
                 environment = "Development",
                 build = "feature-branch",
                 timestamp = DateTime.UtcNow
