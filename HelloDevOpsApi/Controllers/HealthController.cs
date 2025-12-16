@@ -12,7 +12,7 @@ namespace HelloDevOpsApi.Controllers
             return Ok(new
             {
                 status = "Healthy",
-                service = "HelloDevOpsApi",
+                service = "HelloDevOps API Service",
                 version = "v1.1",
                 environment = "Development",
                 build = "feature-branch",
